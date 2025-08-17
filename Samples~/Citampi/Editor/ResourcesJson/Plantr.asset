@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c86c3c0caf744b8943c64bf7bbe4b06, type: 3}
+  m_Name: Plantr
+  m_EditorClassIdentifier: 
+  entries:
+    entries:
+    - key: 1
+      value: {fileID: 11400000, guid: 3a7271e59f6a65a46b7e9faec7b8ba38, type: 2}
+    - key: 3
+      value: {fileID: 11400000, guid: 7c1c884fd3f69ab4d96752f9ade53a0c, type: 2}
+    - key: 5
+      value: {fileID: 11400000, guid: 407a10d3b41b27943ba6d86c849e2b44, type: 2}
+    - key: 7
+      value: {fileID: 11400000, guid: c44f639d4fc7daf47b21831a76144df3, type: 2}
+    - key: 9
+      value: {fileID: 11400000, guid: 05b0f561fd649104ca37202cb162a607, type: 2}

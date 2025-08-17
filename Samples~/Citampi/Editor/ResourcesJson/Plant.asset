@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c86c3c0caf744b8943c64bf7bbe4b06, type: 3}
+  m_Name: Plant
+  m_EditorClassIdentifier: 
+  entries:
+    entries:
+    - key: 1
+      value: {fileID: 11400000, guid: cbc78f76a80e26a4e81842cc5a532ac9, type: 2}
+    - key: 3
+      value: {fileID: 11400000, guid: 4345cfb98741f4a49b90f475c32ee5bd, type: 2}
+    - key: 5
+      value: {fileID: 11400000, guid: b86ecb28a8cdfec4fbf286afa8d64c2b, type: 2}
+    - key: 7
+      value: {fileID: 11400000, guid: 6bac03c84a986a341b39b1dedce348ef, type: 2}
+    - key: 9
+      value: {fileID: 11400000, guid: 4b2e03750d811d74f9e23150fe11b185, type: 2}
+    - key: 11
+      value: {fileID: 11400000, guid: 498222a21cc7a074b816de67c478da0e, type: 2}
+    - key: 13
+      value: {fileID: 11400000, guid: 82eecf7dc67b60443a7f3a3b42009d7a, type: 2}
+    - key: 15
+      value: {fileID: 11400000, guid: 6dac9229aa883b246ae30a4525bf5b24, type: 2}
+    - key: 17
+      value: {fileID: 11400000, guid: 6051917ef2b26f64795b87e2817a70b6, type: 2}
+    - key: 19
+      value: {fileID: 11400000, guid: e400aa18f074f63418a0b62fd06b0edf, type: 2}
+    - key: 21
+      value: {fileID: 11400000, guid: df7fa213621829b4d8dfc99cd9fdea18, type: 2}
+    - key: 23
+      value: {fileID: 11400000, guid: 7f226f8b6c2539b478c71df0f5961e2c, type: 2}
+    - key: 25
+      value: {fileID: 11400000, guid: 3746cbcc0cc7bd645a371123bea2b92d, type: 2}
+    - key: 27
+      value: {fileID: 11400000, guid: 402cb280c5536724dae1f1a79d6e335c, type: 2}
+    - key: 29
+      value: {fileID: 11400000, guid: e918fb55c7b25ec4db22a4d4ff3e4415, type: 2}
+    - key: 31
+      value: {fileID: 11400000, guid: 63cbca02af7d6a04e92457f8272861fe, type: 2}

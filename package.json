@@ -8,5 +8,17 @@
     "name": "Ikan Asin Production",
     "email": "info@ikanasinproduction.com",
     "url": "https://www.ikanasinproduction.com/"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Citampi",
+      "description": "",
+      "path": "Samples~/Citampi"
+    },
+    {
+      "displayName": "Cisini",
+      "description": "",
+      "path": "Samples~/Cisini"
+    },
+  ]
 }
