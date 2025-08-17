@@ -99,6 +99,7 @@ namespace TranslationExporter
         {
             try
             {
+                rootVisualElement.SetEnabled(false);
                 EditorUtility.DisplayProgressBar("Find Diff", "", 0.9f);
                 _diffContainer.Clear();
 
@@ -117,9 +118,11 @@ namespace TranslationExporter
                 EditorUtility.ClearProgressBar();
                 AssetDatabase.SaveAssets();
                 AssetDatabase.Refresh();
+                rootVisualElement.SetEnabled(true);
             }
             catch (Exception e)
             {
+                rootVisualElement.SetEnabled(true);
                 EditorUtility.ClearProgressBar();
                 EditorUtility.DisplayDialog("Error", e.Message, "Ok");
                 Debug.LogError($"{e.Message}\n{e.StackTrace}");
@@ -130,6 +133,7 @@ namespace TranslationExporter
         {
             try
             {
+                rootVisualElement.SetEnabled(false);
                 EditorUtility.DisplayProgressBar("Export", "", 0.9f);
 
                 for (var i = 0; i < _processors.Count; i++)
@@ -144,9 +148,11 @@ namespace TranslationExporter
                 EditorUtility.ClearProgressBar();
                 AssetDatabase.SaveAssets();
                 AssetDatabase.Refresh();
+                rootVisualElement.SetEnabled(true);
             }
             catch (Exception e)
             {
+                rootVisualElement.SetEnabled(true);
                 EditorUtility.ClearProgressBar();
                 EditorUtility.DisplayDialog("Error", e.Message, "Ok");
             }
@@ -156,6 +162,7 @@ namespace TranslationExporter
         {
             try
             {
+                rootVisualElement.SetEnabled(false);
                 EditorUtility.DisplayProgressBar("Import", "", 0.9f);
 
                 for (var i = 0; i < _processors.Count; i++)
@@ -170,9 +177,11 @@ namespace TranslationExporter
                 EditorUtility.ClearProgressBar();
                 AssetDatabase.SaveAssets();
                 AssetDatabase.Refresh();
+                rootVisualElement.SetEnabled(true);
             }
             catch (Exception e)
             {
+                rootVisualElement.SetEnabled(true);
                 EditorUtility.ClearProgressBar();
                 EditorUtility.DisplayDialog("Error", e.Message, "Ok");
             }
