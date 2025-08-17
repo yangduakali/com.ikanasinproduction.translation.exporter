@@ -122,6 +122,7 @@ namespace TranslationExporter
             {
                 EditorUtility.ClearProgressBar();
                 EditorUtility.DisplayDialog("Error", e.Message, "Ok");
+                Debug.LogError($"{e.Message}\n{e.StackTrace}");
             }
         }
 
