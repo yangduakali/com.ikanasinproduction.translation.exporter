@@ -34,6 +34,7 @@ namespace citampi.TranslationExporter
         protected void SaveJsonMetadata()
         {
             var path = $"{Application.dataPath}/{ResourcesJsonFolderPath}/{GroupId}.json";
+            CreateFolder($"Assets/{ResourcesJsonFolderPath}");
             File.WriteAllText(path, JsonConvert.SerializeObject(_metadata ?? new ProcessorMetadata()));
         }
 

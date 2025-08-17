@@ -133,6 +133,7 @@ namespace citampi.TranslationExporter
         protected AssetLookUpId GetAssetLookUpId()
         {
             var assetPath = $"Assets/{ResourcesJsonFolderPath}/{GroupId}.asset";
+            CreateFolder($"Assets/{ResourcesJsonFolderPath}");
             var result = AssetDatabase.LoadAssetAtPath<AssetLookUpId>(assetPath);
             if(result is not null) return result;
             result = ScriptableObject.CreateInstance<AssetLookUpId>();
