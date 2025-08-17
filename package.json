@@ -1,0 +1,12 @@
+{
+  "name": "com.ikanasinproduction.translation.exporter",
+  "version": "0.0.1",
+  "displayName": "Ikan Translation Exporter",
+  "unity": "2022.3",
+  "unityRelease": "33f1",
+  "author": {
+    "name": "Ikan Asin Production",
+    "email": "info@ikanasinproduction.com",
+    "url": "https://www.ikanasinproduction.com/"
+  }
+}
